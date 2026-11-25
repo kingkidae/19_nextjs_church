@@ -1,0 +1,6 @@
+# never upload secrets (Supabase access token, Google client secret live in .env.local)
+.env*
+!.env.example
+.next
+node_modules
+.playwright-mcp
